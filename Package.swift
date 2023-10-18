@@ -32,8 +32,8 @@ let package = Package(
         		.linkedFramework("Accelerate"), 
         	]
     	), 
-    	.binaryTarget(name: "libnumpy", url: "https://github.com/PythonSwiftLink/KivyNumpy/releases/download/999.0.0/libnumpy.zip", checksum: "f6a5a8ca575dd370085e19b77f0b04af786759edd7d51ef73004ea76483a3a1d"), 
-    	.binaryTarget(name: "libnpyrandom", url: "https://github.com/PythonSwiftLink/KivyNumpy/releases/download/999.0.0/libnpyrandom.zip", checksum: "76a4befc26cd85dc0f82379cfd663b46508136b8df451457abf863f28eba7694"), 
-    	.binaryTarget(name: "libnpymath", url: "https://github.com/PythonSwiftLink/KivyNumpy/releases/download/999.0.0/libnpymath.zip", checksum: "d76297424227bf47f3cd62d80a49d6434ea2548fb505aec16abeb54fac376769"), 
+    	.binaryTarget(name: "libnumpy", url: "https://github.com/PythonSwiftLink/KivyNumpy/releases/download/310.1.0/libnumpy.zip", checksum: "2f471acd3ebe2e77731f3be6929bd22c7fc7f7ca0adcecf5a56796daeef107ab"), 
+    	.binaryTarget(name: "libnpyrandom", url: "https://github.com/PythonSwiftLink/KivyNumpy/releases/download/310.1.0/libnpyrandom.zip", checksum: "8cfa2f2d1edc30a93a0faaecf1d6093e57b6975da980d850e57a18056e53efad"), 
+    	.binaryTarget(name: "libnpymath", url: "https://github.com/PythonSwiftLink/KivyNumpy/releases/download/310.1.0/libnpymath.zip", checksum: "c816b4534e730b7481744e1598491a2de657e452ab6a715b199fa18520c9467a"), 
     ]
 )
